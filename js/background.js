@@ -1,0 +1,1 @@
+console.log("Chrome extension development is easy");
