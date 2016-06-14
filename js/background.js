@@ -9,9 +9,9 @@ chrome.runtime.onInstalled.addListener(function(data){
     });
 });
 
-// Handle any recieved messages
+// Handle any received messages
 chrome.runtime.onMessage.addListener(function(message){
-    console.log('message recieved', message);
+    console.log('message received', message);
     // If count hipsters action, add them
     if (message.action == "countHipster"){
         // Get any existing hipster count
